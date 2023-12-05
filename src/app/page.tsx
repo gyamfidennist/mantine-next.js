@@ -16,14 +16,14 @@ export default function Home() {
         <Text component="h1" className="text-4xl font-bold text-white mb-2">
           Next.js + Tailwindcss + Mantine
         </Text>
-        <Flex align={'center'} mb={'md'} gap={'sm'}>
+        <Flex align="center" mb="md" gap="sm">
           <Text component="h2" className="text-2xl font-bold text-white ">
             A match made in heaven
           </Text>
           <FcEnteringHeavenAlive className="text-3xl" />
         </Flex>
 
-        <Button variant="white" color="black" radius={'xl'} size="lg">
+        <Button variant="white" color="black" radius="xl" size="lg">
           Get Started
         </Button>
       </div>
